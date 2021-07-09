@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Nitel/SD-2419.md",
-            "mode": "source"
+            "file": "Unity/Gizmos.DrawIcon.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "icon",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nitel/SD-2419.md",
+                "file": "Unity/Gizmos.DrawIcon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +89,7 @@
   },
   "active": "74c01c463c74d588",
   "lastOpenFiles": [
+    "Unity/Gizmos.DrawIcon.md",
     "Nitel/SD-2419.md",
     "Nitel/Untitled.md",
     "Salesforce/Ownbackup Archiver.md",
@@ -96,7 +98,6 @@
     "Nitel/Case Comments.md",
     "Unity/CodeMonkey Utils.md",
     "Unity/Untitled.md",
-    "Unity/Gizmos.DrawIcon.md",
     "margarita.md"
   ]
 }
