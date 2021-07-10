@@ -1,4 +1,4 @@
-[[Linq]]
+[[Linq]][[Sort objects by distance]]
 ```C#
 // uses System.Linq
   `hits = hits.OrderBy(`
