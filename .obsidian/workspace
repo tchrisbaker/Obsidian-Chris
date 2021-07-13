@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "74c01c463c74d588",
+        "id": "e37b3461918e94c5",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Unity/Gizmos.DrawIcon.md",
-            "mode": "preview"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -39,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "icon",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,12 +45,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a4683de729f9fff4",
@@ -69,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unity/Gizmos.DrawIcon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +83,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "74c01c463c74d588",
+  "active": "e37b3461918e94c5",
   "lastOpenFiles": [
-    "Unity/Gizmos.DrawIcon.md",
-    "Nitel/SD-2419.md",
-    "Nitel/Untitled.md",
-    "Salesforce/Ownbackup Archiver.md",
-    "Leases/Untitled.md",
-    "Leases/L Logan Square Insurance.md",
-    "Nitel/Case Comments.md",
-    "Unity/CodeMonkey Utils.md",
-    "Unity/Untitled.md",
-    "margarita.md"
+    "Release.md",
+    "DFIN/Sledgehammer/Staging Recs/Duplicate task ids  and Project Ids.md",
+    "DFIN/Sledgehammer/Staging Recs/24668.md",
+    "ErrorMessage__c.md",
+    "DFIN/Sledgehammer/Staging Recs/Contact Staging/Processing Queue bad value for restricted picklist field Withdrawn.md",
+    "DFIN/Sledgehammer/Staging Recs/Section Staging/Workbook Replace.md",
+    "DFIN/Sledgehammer/Staging Recs/Task Section Staging/Task Section Unit Test.md",
+    "DFIN/Sledgehammer/Staging Recs/Duplicate id in list error.md",
+    "DFIN/Sledgehammer/Staging Recs/Placeholder Projects & Task sections Update.md",
+    "DFIN/Sledgehammer/Staging Recs/Project.md"
   ]
 }

@@ -22,3 +22,5 @@ If Is\_Deleted = true
 -   Else
 
 -   Soft delete (Remove\_From\_Task\_\_c = true)
+
+[[Task Integration]][[Sledgehammer]]

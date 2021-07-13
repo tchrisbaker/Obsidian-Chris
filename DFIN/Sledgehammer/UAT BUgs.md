@@ -7,3 +7,5 @@ S5_t section - renaming does not rename task sections (maybe because the task se
 
 deleting a section doesn't do hard/soft deletes downstream, removing a task from a section does work however
 - Root cause is Section Staging Source Timestamp is old 
+
+[[Task Integration]]
