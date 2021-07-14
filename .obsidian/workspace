@@ -18,8 +18,11 @@
         "id": "9431838394d6261a",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Start Catch ALl JOb.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -76,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Start Catch ALl JOb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,6 +99,8 @@
   },
   "active": "9431838394d6261a",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Untitled 1.md",
     "conflict-files-obsidian-git.md",
     "DFIN/Sledgehammer/Staging Recs/things to deploy for placeholders.md",
     "Release.md",
@@ -102,8 +108,6 @@
     "DFIN/Sledgehammer/Staging Recs/24668.md",
     "ErrorMessage__c.md",
     "DFIN/Sledgehammer/Staging Recs/Contact Staging/Processing Queue bad value for restricted picklist field Withdrawn.md",
-    "DFIN/Sledgehammer/Staging Recs/Section Staging/Workbook Replace.md",
-    "DFIN/Sledgehammer/Staging Recs/Task Section Staging/Task Section Unit Test.md",
-    "DFIN/Sledgehammer/Staging Recs/Duplicate id in list error.md"
+    "DFIN/Sledgehammer/Staging Recs/Section Staging/Workbook Replace.md"
   ]
 }
