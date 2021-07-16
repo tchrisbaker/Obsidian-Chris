@@ -1,6 +1,6 @@
    
 
-[[Section Staging]] Processing
+Section Staging Processing
 
 If Is\_Deleted = true
 
@@ -11,7 +11,7 @@ If Is\_Deleted = true
 
 
 
-[[Task Staging]] Processing
+Task Staging Processing
 
 -   If Task Section Action = Remove
 
@@ -23,4 +23,4 @@ If Is\_Deleted = true
 
 -   Soft delete (Remove\_From\_Task\_\_c = true)
 
-[[Task Integration]][[Sledgehammer]]
+#TaskIntegration #Sledgehammer 

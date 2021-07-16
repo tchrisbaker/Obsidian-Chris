@@ -1,11 +1,11 @@
-In Stage, We got an error in the object [[ErrorMessage__c]] that said 
+In Stage, We got an error in the object ErrorMessage__c that said 
 
-```
+```ad-error
 Processing Queue: bad value for restricted picklist field: Withdrawn
 ```
 
 
-The [[Contact Staging]] record with the error is https://dfsco--stage.lightning.force.com/lightning/r/SH_Contact_Staging__c/a4R63000000PTKaEAO/view
+The Contact Staging record with the error is https://dfsco--stage.lightning.force.com/lightning/r/SH_Contact_Staging__c/a4R63000000PTKaEAO/view
 
 Once the status is "Withdrawn" it should never get updated again so this is weird
 
@@ -18,7 +18,10 @@ else if (withdrawnAssetUserKeys.contains(assetUserKey)) {
 }
 ```
 
+```ad-info
 Here is the logs from when the job ran
+```
+
 ```
 51.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
 10:58:01.5 (5565055)|USER_INFO|[EXTERNAL]|005U0000001LhxC|automated.user@rrd.com.stage|(GMT-05:00) Central Daylight Time (America/Chicago)|GMT-05:00
@@ -180,4 +183,4 @@ Here is the logs from when the job ran
 10:58:01.5 (364797260)|CODE_UNIT_FINISHED|SH_ScheduleStagingDataProcessing -- 58 min
 10:58:01.5 (364815971)|EXECUTION_FINISHED
 ```
- [[Sledgehammer]][[Task Integration]]
+ #Salesforce #TaskIntegration 

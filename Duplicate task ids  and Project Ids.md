@@ -1,6 +1,6 @@
-[[Duplicates]]
 
-I found that we received 2 API calls for [Task] (same [[Task Id]] is on both) and they both happened at the same exact moment down to second
+
+I found that we received 2 API calls for Task (same Task Id is on both) and they both happened at the same exact moment down to second
 
 [https://dfsco--sledge.lightning.force.com/lightning/r/SH\_Task\_Staging\_\_c/a4X2h000000AtP7EAK/view](https://dfsco--sledge.lightning.force.com/lightning/r/SH_Task_Staging__c/a4X2h000000AtP7EAK/view "https://dfsco--sledge.lightning.force.com/lightning/r/sh_task_staging__c/a4x2h000000atp7eak/view")
 
@@ -8,9 +8,9 @@ I found that we received 2 API calls for [Task] (same [[Task Id]] is on both) an
 
 The time have the same Created Date in Salesforce database which is this 2021-06-16T 12:41:13
 
-The [[SourceTimeStamp]] is the same too for both records - 2021-06-16 12:41:13
+The Source Timestamp is the same too for both records - 2021-06-16 12:41:13
 
-Because of this, the Salesforce system executed them at the same exact time. We are doing an upsert so normally one of these would insert the other would update. But since they both came at the same moment, they both inserted. And because they both inserted, we have 2 Tasks with the same [[Task Id]]
+Because of this, the Salesforce system executed them at the same exact time. We are doing an upsert so normally one of these would insert the other would update. But since they both came at the same moment, they both inserted. And because they both inserted, we have 2 Tasks with the same TaskId
 
 I was curious if that would be a common occurrence that we would get more than 1 request at the same moment for the same record?
 
@@ -24,17 +24,17 @@ It appears we have two different issues, tho might be related as it might be a s
 
 Issue 1)
 
-[[Task]] is sending requests w same sourcetimestamp but different message ID and data. It appears that when the first update is made to a task, it is sending both the create task request and the field updated request at the same time. I checked and it does not appear to be a field specific issue so seems to just be related to the first update.
+Task is sending requests w same sourcetimestamp but different message ID and data. It appears that when the first update is made to a task, it is sending both the create task request and the field updated request at the same time. I checked and it does not appear to be a field specific issue so seems to just be related to the first update.
 
 Example, two request sent at same time but have different data. https://dfsco--sledge.my.salesforce.com/a4X2h000000Atpa - does not have document format (believe this is the task create request) https://dfsco--sledge.my.salesforce.com/a4X2h000000Atpf - has document format (believe this is the first update to the task)
 
 Issue 2)
 
-For [[Project]], this seems related to both project/sections being sent w same sourcetimestamp.  It seems to be that New AD is sending multiple requests at the exact same time, even from multiple objects (ie. project and sections with same sourcetimestamp). 
+For Project, this seems related to both project/sections being sent w same sourcetimestamp.  It seems to be that New AD is sending multiple requests at the exact same time, even from multiple objects (ie. project and sections with same sourcetimestamp). 
 
-https://dfsco--sledge.my.salesforce.com/a4U2h0000004fpH?srPos=13&srKp=a4U  - [[Section]]
+https://dfsco--sledge.my.salesforce.com/a4U2h0000004fpH?srPos=13&srKp=a4U  - Section
 
-https://dfsco--sledge.my.salesforce.com/a4Q2h000000IVC6?srPos=1&srKp=a4Q - [[Project]]
+https://dfsco--sledge.my.salesforce.com/a4Q2h000000IVC6?srPos=1&srKp=a4Q - Project
 
 I would assume that it is not possible to create a section before or at same time a project is created. 
 
@@ -83,4 +83,5 @@ Hi all, we have looked into this from different perspective, the best that it is
 
 <https://teams.microsoft.com/l/message/19:bf5c904aedff431a89da5c55091d039a@thread.tacv2/1623984640480?tenantId=64ebfaf9-be45-43c2-9e9c-fcb060bf234d&amp;groupId=71e86d43-01fd-490c-8eb4-df52bffdbaaa&amp;parentMessageId=1623872121189&amp;teamName=New AD (Sledgehammer) Engineering&amp;channelName=Salesforce Integration&amp;createdTime=1623984640480>
 
-[[Sledgehammer]][[Task Integration]]
+
+#Sledgehammer #TaskIntegration 

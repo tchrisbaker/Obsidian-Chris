@@ -1,5 +1,6 @@
 [
   "url-into-selection",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-admonition"
 ]

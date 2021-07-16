@@ -1,3 +1,0 @@
-- Delete__c on Comment__c is not used
-- the validation rule for when a comment is edited uses CreateDate, the Is_Blocked__c which is only used in the batch job uses LastModified Date
-- the delete validation is using a trigger while the update validation uses a validation rule

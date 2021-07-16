@@ -7,22 +7,8 @@
         "id": "98c7815321b42bdf",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "DFIN/Sledgehammer/Staging Recs/things to deploy for placeholders.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "9431838394d6261a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Start Catch ALl JOb.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -50,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Salesforce",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -59,7 +45,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -79,13 +66,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Start Catch ALl JOb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
@@ -97,17 +83,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9431838394d6261a",
+  "active": "98c7815321b42bdf",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Untitled 1.md",
-    "conflict-files-obsidian-git.md",
-    "DFIN/Sledgehammer/Staging Recs/things to deploy for placeholders.md",
-    "Release.md",
-    "DFIN/Sledgehammer/Staging Recs/Duplicate task ids  and Project Ids.md",
-    "DFIN/Sledgehammer/Staging Recs/24668.md",
-    "ErrorMessage__c.md",
-    "DFIN/Sledgehammer/Staging Recs/Contact Staging/Processing Queue bad value for restricted picklist field Withdrawn.md",
-    "DFIN/Sledgehammer/Staging Recs/Section Staging/Workbook Replace.md"
+    "Abort Catch all job.md",
+    "Processing Queue bad value for restricted picklist field Withdrawn.md",
+    "Production Release of Task Integration.md",
+    "Sledgehammer Sections & Tasks.md",
+    "Start Catch All Job.md",
+    "things to deploy for placeholders.md",
+    "UAT Sledgehammer Task Integration Bugs.md",
+    "Task API.md",
+    "24668.md",
+    "Section API.md"
   ]
 }
